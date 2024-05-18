@@ -1,0 +1,34 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .dashboard-nav {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .dashboard-nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .dashboard-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .dashboard-content {
+    text-align: center;
+  }
+  
